@@ -1,0 +1,137 @@
+2018-02-06 13:27:58 Error: [MissingViewException] View file "Posts/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Posts/index.ctp',
+)
+Request URL: /blogCakePHP/Posts/
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/blogCakePHP/lib/Cake/View/View.php(470): View->_getViewFileName('Posts/index')
+#1 /Applications/XAMPP/xamppfiles/htdocs/blogCakePHP/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#2 /Applications/XAMPP/xamppfiles/htdocs/blogCakePHP/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /Applications/XAMPP/xamppfiles/htdocs/blogCakePHP/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/blogCakePHP/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2018-02-06 13:30:06 Error: [MissingViewException] View file "Posts/view.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Posts/view.ctp',
+)
+Request URL: /blogCakePHP/posts/view/1
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/blogCakePHP/lib/Cake/View/View.php(470): View->_getViewFileName('Posts/view')
+#1 /Applications/XAMPP/xamppfiles/htdocs/blogCakePHP/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#2 /Applications/XAMPP/xamppfiles/htdocs/blogCakePHP/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /Applications/XAMPP/xamppfiles/htdocs/blogCakePHP/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/blogCakePHP/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2018-02-06 13:30:21 Error: [MissingViewException] View file "Posts/view.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Posts/view.ctp',
+)
+Request URL: /blogCakePHP/posts/view/1
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/blogCakePHP/lib/Cake/View/View.php(470): View->_getViewFileName('Posts/view')
+#1 /Applications/XAMPP/xamppfiles/htdocs/blogCakePHP/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#2 /Applications/XAMPP/xamppfiles/htdocs/blogCakePHP/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /Applications/XAMPP/xamppfiles/htdocs/blogCakePHP/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/blogCakePHP/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2018-02-06 15:13:11 Error: [MissingLayoutException] Layout file "Layouts/Contacts.contact.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Layouts/Contacts.contact.ctp',
+)
+Request URL: /blogCakePHP/posts
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/blogCakePHP/lib/Cake/View/View.php(514): View->_getLayoutFileName('Contacts.contac...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/blogCakePHP/lib/Cake/View/View.php(481): View->renderLayout('', 'Contacts.contac...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/blogCakePHP/lib/Cake/Controller/Controller.php(963): View->render(NULL, 'Contacts.contac...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/blogCakePHP/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#4 /Applications/XAMPP/xamppfiles/htdocs/blogCakePHP/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#5 /Applications/XAMPP/xamppfiles/htdocs/blogCakePHP/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2018-02-06 15:39:08 Error: [MissingControllerException] Controller class ContactsController could not be found.
+Exception Attributes: array (
+  'class' => 'ContactsController',
+  'plugin' => 'Contact',
+)
+Request URL: /blogCakePHP/contact/contacts/add
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/blogCakePHP/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-02-06 15:41:00 Error: [MissingControllerException] Controller class ContactsController could not be found.
+Exception Attributes: array (
+  'class' => 'ContactsController',
+  'plugin' => 'Contact',
+)
+Request URL: /blogCakePHP/contact/contacts/add
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/blogCakePHP/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-02-06 18:06:08 Error: [ParseError] syntax error, unexpected 'public' (T_PUBLIC), expecting end of file
+Request URL: /blogCakePHP/Posts/
+Stack Trace:
+#0 [internal function]: App::load('Post')
+#1 [internal function]: spl_autoload_call('Post')
+#2 /Applications/XAMPP/xamppfiles/htdocs/blogCakePHP/lib/Cake/Utility/ClassRegistry.php(146): class_exists('Post')
+#3 /Applications/XAMPP/xamppfiles/htdocs/blogCakePHP/lib/Cake/Controller/Controller.php(741): ClassRegistry::init('Post')
+#4 /Applications/XAMPP/xamppfiles/htdocs/blogCakePHP/lib/Cake/Controller/Controller.php(368): Controller->loadModel('Post')
+#5 /Applications/XAMPP/xamppfiles/htdocs/blogCakePHP/lib/Cake/Controller/Controller.php(406): Controller->__isset('Post')
+#6 /Applications/XAMPP/xamppfiles/htdocs/blogCakePHP/app/Controller/PostsController.php(13): Controller->__get('Post')
+#7 [internal function]: PostsController->index()
+#8 /Applications/XAMPP/xamppfiles/htdocs/blogCakePHP/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#9 /Applications/XAMPP/xamppfiles/htdocs/blogCakePHP/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 /Applications/XAMPP/xamppfiles/htdocs/blogCakePHP/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#11 /Applications/XAMPP/xamppfiles/htdocs/blogCakePHP/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2018-02-06 18:06:24 Error: [MissingViewException] View file "Users/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/index.ctp',
+)
+Request URL: /blogCakePHP/Users/
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/blogCakePHP/lib/Cake/View/View.php(470): View->_getViewFileName('Users/index')
+#1 /Applications/XAMPP/xamppfiles/htdocs/blogCakePHP/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#2 /Applications/XAMPP/xamppfiles/htdocs/blogCakePHP/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /Applications/XAMPP/xamppfiles/htdocs/blogCakePHP/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/blogCakePHP/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2018-02-06 18:07:12 Error: [MissingViewException] View file "Users/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/index.ctp',
+)
+Request URL: /blogCakePHP/Users/
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/blogCakePHP/lib/Cake/View/View.php(470): View->_getViewFileName('Users/index')
+#1 /Applications/XAMPP/xamppfiles/htdocs/blogCakePHP/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#2 /Applications/XAMPP/xamppfiles/htdocs/blogCakePHP/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /Applications/XAMPP/xamppfiles/htdocs/blogCakePHP/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/blogCakePHP/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2018-02-06 18:08:09 Error: [MissingViewException] View file "Users/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/index.ctp',
+)
+Request URL: /blogCakePHP/users
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/blogCakePHP/lib/Cake/View/View.php(470): View->_getViewFileName('Users/index')
+#1 /Applications/XAMPP/xamppfiles/htdocs/blogCakePHP/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#2 /Applications/XAMPP/xamppfiles/htdocs/blogCakePHP/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /Applications/XAMPP/xamppfiles/htdocs/blogCakePHP/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/blogCakePHP/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2018-02-06 18:16:30 Error: [MissingControllerException] Controller class BlogCakePHPController could not be found.
+Exception Attributes: array (
+  'class' => 'BlogCakePHPController',
+  'plugin' => NULL,
+)
+Request URL: /blogCakePHP/blogCakePHP/posts
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/blogCakePHP/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-02-06 18:16:37 Error: [MissingControllerException] Controller class BlogCakePHPController could not be found.
+Exception Attributes: array (
+  'class' => 'BlogCakePHPController',
+  'plugin' => NULL,
+)
+Request URL: /blogCakePHP/blogCakePHP/posts
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/blogCakePHP/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
