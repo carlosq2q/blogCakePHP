@@ -38,7 +38,7 @@ $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version())
 <body>
 	<div id="container">
 		<div id="header">
-            <div class="logo"><h1>Q2Q Communications</h1></div>
+            <div class="logo"><h1>Logo</h1></div>
             <div class="navBar"></div>
 		</div>
 		<div id="content">
@@ -48,7 +48,7 @@ $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version())
 			<?php echo $this->fetch('content'); ?>
 		</div>
 		<div id="footer">
-            © Copyright 2018 Q2Q. All Rights Reserved.
+            © Copyright 2018. All Rights Reserved.
 		</div>
 	</div>
 </body>

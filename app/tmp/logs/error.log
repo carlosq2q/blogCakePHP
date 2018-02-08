@@ -135,3 +135,78 @@ Request URL: /blogCakePHP/blogCakePHP/posts
 Stack Trace:
 #0 /Applications/XAMPP/xamppfiles/htdocs/blogCakePHP/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2018-02-08 17:53:22 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [2002] No such file or directory',
+  'enabled' => true,
+)
+Request URL: /blogCakePHP/users/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/blogCakePHP/lib/Cake/Model/Datasource/DboSource.php(271): Mysql->connect()
+#1 /Applications/XAMPP/xamppfiles/htdocs/blogCakePHP/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/blogCakePHP/lib/Cake/Model/Model.php(3646): ConnectionManager::getDataSource('default')
+#3 /Applications/XAMPP/xamppfiles/htdocs/blogCakePHP/lib/Cake/Model/Model.php(1162): Model->setDataSource('default')
+#4 /Applications/XAMPP/xamppfiles/htdocs/blogCakePHP/lib/Cake/Model/Model.php(3673): Model->setSource('users')
+#5 /Applications/XAMPP/xamppfiles/htdocs/blogCakePHP/lib/Cake/Model/Model.php(1394): Model->getDataSource()
+#6 /Applications/XAMPP/xamppfiles/htdocs/blogCakePHP/lib/Cake/View/Helper/FormHelper.php(215): Model->schema()
+#7 /Applications/XAMPP/xamppfiles/htdocs/blogCakePHP/lib/Cake/View/Helper/FormHelper.php(480): FormHelper->_introspectModel('User', 'fields')
+#8 /Applications/XAMPP/xamppfiles/htdocs/blogCakePHP/app/View/Users/login.ctp(3): FormHelper->create('User')
+#9 /Applications/XAMPP/xamppfiles/htdocs/blogCakePHP/lib/Cake/View/View.php(971): include('/Applications/X...')
+#10 /Applications/XAMPP/xamppfiles/htdocs/blogCakePHP/lib/Cake/View/View.php(933): View->_evaluate('/Applications/X...', Array)
+#11 /Applications/XAMPP/xamppfiles/htdocs/blogCakePHP/lib/Cake/View/View.php(473): View->_render('/Applications/X...')
+#12 /Applications/XAMPP/xamppfiles/htdocs/blogCakePHP/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#13 /Applications/XAMPP/xamppfiles/htdocs/blogCakePHP/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#14 /Applications/XAMPP/xamppfiles/htdocs/blogCakePHP/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#15 /Applications/XAMPP/xamppfiles/htdocs/blogCakePHP/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2018-02-08 17:53:33 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [2002] No such file or directory',
+  'enabled' => true,
+)
+Request URL: /blogCakePHP/users/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/blogCakePHP/lib/Cake/Model/Datasource/DboSource.php(271): Mysql->connect()
+#1 /Applications/XAMPP/xamppfiles/htdocs/blogCakePHP/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/blogCakePHP/lib/Cake/Model/Model.php(3646): ConnectionManager::getDataSource('default')
+#3 /Applications/XAMPP/xamppfiles/htdocs/blogCakePHP/lib/Cake/Model/Model.php(1162): Model->setDataSource('default')
+#4 /Applications/XAMPP/xamppfiles/htdocs/blogCakePHP/lib/Cake/Model/Model.php(3673): Model->setSource('users')
+#5 /Applications/XAMPP/xamppfiles/htdocs/blogCakePHP/lib/Cake/Model/Model.php(1394): Model->getDataSource()
+#6 /Applications/XAMPP/xamppfiles/htdocs/blogCakePHP/lib/Cake/View/Helper/FormHelper.php(215): Model->schema()
+#7 /Applications/XAMPP/xamppfiles/htdocs/blogCakePHP/lib/Cake/View/Helper/FormHelper.php(480): FormHelper->_introspectModel('User', 'fields')
+#8 /Applications/XAMPP/xamppfiles/htdocs/blogCakePHP/app/View/Users/login.ctp(3): FormHelper->create('User')
+#9 /Applications/XAMPP/xamppfiles/htdocs/blogCakePHP/lib/Cake/View/View.php(971): include('/Applications/X...')
+#10 /Applications/XAMPP/xamppfiles/htdocs/blogCakePHP/lib/Cake/View/View.php(933): View->_evaluate('/Applications/X...', Array)
+#11 /Applications/XAMPP/xamppfiles/htdocs/blogCakePHP/lib/Cake/View/View.php(473): View->_render('/Applications/X...')
+#12 /Applications/XAMPP/xamppfiles/htdocs/blogCakePHP/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#13 /Applications/XAMPP/xamppfiles/htdocs/blogCakePHP/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#14 /Applications/XAMPP/xamppfiles/htdocs/blogCakePHP/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#15 /Applications/XAMPP/xamppfiles/htdocs/blogCakePHP/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2018-02-08 17:53:59 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [2002] No such file or directory',
+  'enabled' => true,
+)
+Request URL: /blogCakePHP/users/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/blogCakePHP/lib/Cake/Model/Datasource/DboSource.php(271): Mysql->connect()
+#1 /Applications/XAMPP/xamppfiles/htdocs/blogCakePHP/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/blogCakePHP/lib/Cake/Model/Model.php(3646): ConnectionManager::getDataSource('default')
+#3 /Applications/XAMPP/xamppfiles/htdocs/blogCakePHP/lib/Cake/Model/Model.php(1162): Model->setDataSource('default')
+#4 /Applications/XAMPP/xamppfiles/htdocs/blogCakePHP/lib/Cake/Model/Model.php(3673): Model->setSource('users')
+#5 /Applications/XAMPP/xamppfiles/htdocs/blogCakePHP/lib/Cake/Model/Model.php(1394): Model->getDataSource()
+#6 /Applications/XAMPP/xamppfiles/htdocs/blogCakePHP/lib/Cake/View/Helper/FormHelper.php(215): Model->schema()
+#7 /Applications/XAMPP/xamppfiles/htdocs/blogCakePHP/lib/Cake/View/Helper/FormHelper.php(480): FormHelper->_introspectModel('User', 'fields')
+#8 /Applications/XAMPP/xamppfiles/htdocs/blogCakePHP/app/View/Users/login.ctp(3): FormHelper->create('User')
+#9 /Applications/XAMPP/xamppfiles/htdocs/blogCakePHP/lib/Cake/View/View.php(971): include('/Applications/X...')
+#10 /Applications/XAMPP/xamppfiles/htdocs/blogCakePHP/lib/Cake/View/View.php(933): View->_evaluate('/Applications/X...', Array)
+#11 /Applications/XAMPP/xamppfiles/htdocs/blogCakePHP/lib/Cake/View/View.php(473): View->_render('/Applications/X...')
+#12 /Applications/XAMPP/xamppfiles/htdocs/blogCakePHP/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#13 /Applications/XAMPP/xamppfiles/htdocs/blogCakePHP/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#14 /Applications/XAMPP/xamppfiles/htdocs/blogCakePHP/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#15 /Applications/XAMPP/xamppfiles/htdocs/blogCakePHP/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
